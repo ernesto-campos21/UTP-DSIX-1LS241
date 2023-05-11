@@ -10,20 +10,67 @@
 </head>
 <body>
     <!-- Escribir una función que, dada una cadena "t", retorne si un número es un palíndromo de doble base o no. (Palíndromo en base 10 y base 2) -->
-    <div class="form">
-        <form id="PalindromoForm">
-    
-        <h1>Verificar palíndromo </h1>
-        <input type="number" id="palabra">
-        <label for="palabra">Palabra:</label>
-        
-        <button id="verificar">Verificar</button>
-        
-        </form>
+    <div class="container">
+        <h1 class="title">Verificar palíndromo </h1>
+        <div class="formdiv">
+            <form id="PalindromoForm" class="Forms">
+            
+                <label for="NumberInput">Numero a verificar:</label>
+                <input type="number" id="NumberInput">
+                <button id="PalindromoBtn">Verificar</button>
+            
+            </form>
+        </div>
     </div>
     
+    <!-- Escribir una función que, dada una cadena "t", retorne la cantidad de caracteres de la cadena.
+        Ejemplo: Dado AABBBACAA
+            Se debería retornar que hay 5 A, 3 B, 1 C. El tipo de dato del retorno es a discreción del estudiante. -->
 
-    <p id="resultado"></p>
+    <div class="container">
+        <h1 class="title">Contar caracteres </h1>
+        <div class="formdiv">
+            <form id="CharCountForm" class="Forms">
+            
+                <label for="CharCountInput">Cadena a contar:</label>
+                <input type="text" id="CharCountInput">
+                <button id="CalcBtn">Calcular</button>
+            
+            </form>
+        </div>
+    </div>
+
+    <!-- Escribir una función que, dado un año "a", retorne si ese año es bisiesto o no. -->
+
+    <div class="container">
+        <h1 class="title">Es el año Bisiesto? </h1>
+        <div class="formdiv">
+            <form id="AbisiestoForm" class="Forms">
+            
+                <label for="AbisiestoInput">Ingrese el año:</label>
+                <input type="number" id="AbisiestoInput">
+                <button id="BisiestoBtn">Verificar</button>
+            
+            </form>
+        </div>
+    </div>
+
+    <!-- Escribir una función que, dado un número "n" ( 0 < n < 1000000), retorne la sumatoria de todos los número primos debajo de ese número.
+    Ejemplo: Dado 7
+    Se debería retornar 18, ya que: 1 + 2 + 3 + 5 + 7 = 18 -->
+
+    <div class="container">
+        <h1 class="title">Sumatoria de numeros primos menores que dicho numero </h1>
+        <div class="formdiv">
+            <form id="SumNumPrimosForm" class="Forms">
+            
+                <label for="SumNumPrimosInput">Ingrese el numero:</label>
+                <input type="number" id="SumNumPrimosInput">
+                <button id="SumNumPrimosBtn">Calcular</button>
+            
+            </form>
+        </div>
+    </div>
     
     <script src="main.js"></script>
 </body>

@@ -1,0 +1,49 @@
+.container {
+    position: relative; 
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+  }
+
+.title{
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.Forms{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 2rem;
+}
+
+.Forms input{
+    width: auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.Forms label{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.Forms button{
+    width: 5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: greenyellow;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
