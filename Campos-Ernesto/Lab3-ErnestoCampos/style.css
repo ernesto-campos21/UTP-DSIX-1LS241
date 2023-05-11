@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(85, 96, 190, 0.459);
+}
+
 .container {
     position: relative; 
     background-color: lightgray;
@@ -6,6 +10,7 @@
     gap: 2rem;
     margin: 1rem;
     border-radius: 5px;
+    border: 0.1rem solid gray;
   }
 
 .title{
