@@ -88,4 +88,9 @@ body{
     transform: scale(1.12);
     cursor: pointer;
 }
+#Answ{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2rem;
+}
    
